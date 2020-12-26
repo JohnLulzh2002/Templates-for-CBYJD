@@ -79,7 +79,7 @@ int main(){
 	mat.In(n,n);
 	for(int i=1;i<=m;i++){
 		u=read();v=read();w=read();
-	    if(t)Add_DG(u,v,1ll*w);
+		if(t)Add_DG(u,v,1ll*w);
 		else Add_UG(u,v,1ll*w);
 	}
 	printf("%lld\n",mat.val());

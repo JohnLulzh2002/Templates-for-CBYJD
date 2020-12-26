@@ -1,13 +1,7 @@
-#include<iostream>
-#include<cstdio>
-#include<algorithm>
-#include<cstdlib>
-#include<cstring>
-#include<string>
-#include<queue>
-#include<cmath>
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
 #define Lint long long
-using namespace std;
 const int inf=0x7fffffff;
 const double eps=1e-10;
 const double pi=acos(-1.0);
@@ -43,4 +37,3 @@ int main(){
 	printf("%lld\n",ans);
 	return 0;
 }
-
